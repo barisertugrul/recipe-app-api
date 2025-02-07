@@ -113,7 +113,7 @@ class PrivateRecipeAPITests(TestCase):
             'time_minutes': 30,
             'price': Decimal('5.99'),
         }
-        res = self.client.post(RECIPES_URL, payload) # /api/recipes/recipe
+        res = self.client.post(RECIPES_URL, payload) # /api/recipe/recipe
 
         self.assertEqual(res.status_code, status.HTTP_201_CREATED)
 
