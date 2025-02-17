@@ -172,3 +172,7 @@ cython_debug/
 
 # Development documents
 dev_docs/
+
+# Intellij project files
+*.iml
+.idea/
